@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+@import "@fontsource/comfortaa";
+@import "@fontsource/nunito";
+@import "@fontsource/playfair-display";
+@import "@fontsource/raleway";
+@import "@fontsource/roboto";
+
+@tailwind;
+
+
+@theme {
+  --font-*: initial;
+  --font-nunito: Nunito, sans-serif;
+  --font-roboto: Roboto, sans-serif;
+  --font-playfair: 'Playfair Display', serif;
+  --font-raleway: Raleway, sans-serif;
+  --font-comfortaa: Comfortaa, serif;
+
+  --color-*: initial;
+  --color-brand-yellow: #fdc435;
+  --color-bg-line: #25282b;
+  --color-bg-gray: #f9faff;
+  --color-bg-white: #ffffff;
+  --color-font-high-emphasis: #25282b;
+  --color-font-medium-emphasis: #828282;
+  --color-font-low-emphasis: #9a9fa8;
+}

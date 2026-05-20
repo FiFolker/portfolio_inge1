@@ -2,7 +2,7 @@ function App() {
 
   return (
     <>
-        INIT
+        <div className="font-nunito">TEst</div>
     </>
   )
 }
