@@ -26,11 +26,6 @@
   --color-font-low-emphasis: #9a9fa8;
 }
 
-.footer{
-    background-image:url("public/assets/footer.png");
-    background-position: bottom;
-    background-repeat: no-repeat;
-}
 
 .profile-img{
     background-image:url("public/assets/marlene.png");

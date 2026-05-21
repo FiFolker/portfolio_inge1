@@ -1,6 +1,7 @@
 import {Navbar} from "./components/Navbar.jsx";
 import {Hero} from "./components/Hero.jsx";
-import {Projects} from "./Projects.jsx";
+import {Projects} from "./components/Projects.jsx";
+import {Footer} from "./components/Footer.jsx";
 
 function App() {
     const name = "Elouan Le Merle";
@@ -30,15 +31,17 @@ function App() {
     ]
 
     return (
-        <div className="bg-bg-gray min-h-screen w-full relative overflow-x-hidden">
+        <div className="bg-bg-gray min-h-screen w-full relative overflow-x-hidden profile-img">
 
-            <div className="absolute top-0 left-0 w-full px-20 z-50 mt-4">
+            <div className="absolute top-0 left-0 w-full px-20 z-50 mt-4 ">
                 <Navbar name={name} />
             </div>
 
             <Hero name={name}/>
 
             <Projects projects={projects} />
+
+            <Footer name={name}/>
 
         </div>
     );
