@@ -5,7 +5,7 @@ export const Navbar = ({name}) => {
             <ul className="flex font-raleway space-x-12 text-lg">
                 <li><a href="#About">About</a></li>
                 <li><a href="#Projects">Projects</a></li>
-                <li><a href="#Contacts">Contacts</a></li>
+                <li><a href="#Contact">Contact</a></li>
             </ul>
         </nav>
     )
