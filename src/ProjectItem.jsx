@@ -1,6 +1,17 @@
-export const ProjectItem = ({ title, description, image, link }) => {
+export const ProjectItem = ({ imageFirst=false ,title, description, image, link }) => {
     return (
         <div className="bg-bg-white rounded-3xl overflow-hidden flex flex-col md:flex-row w-full max-w-5xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] mx-auto">
+
+
+            {imageFirst &&
+                <div className="w-full md:w-1/2 min-h-[300px] md:min-h-full">
+                <img
+                src={image}
+                alt={`Aperçu du projet ${title}`}
+                className="w-full h-full object-cover"
+                />
+                </div>
+            }
 
             <div className="w-full md:w-1/2 p-10 md:p-14 lg:p-16 flex flex-col justify-center">
                 <h3 className="font-playfair text-font-high-emphasis text-4xl md:text-5xl font-bold mb-6">
@@ -20,13 +31,15 @@ export const ProjectItem = ({ title, description, image, link }) => {
                 </a>
             </div>
 
-            <div className="w-full md:w-1/2 min-h-[300px] md:min-h-full">
-                <img
-                    src={image}
-                    alt={`Aperçu du projet ${title}`}
-                    className="w-full h-full object-cover"
-                />
-            </div>
+            {!imageFirst &&
+                <div className="w-full md:w-1/2 min-h-[300px] md:min-h-full">
+                    <img
+                        src={image}
+                        alt={`Aperçu du projet ${title}`}
+                        className="w-full h-full object-cover"
+                    />
+                </div>
+            }
 
         </div>
     );
