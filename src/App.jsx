@@ -2,6 +2,7 @@ import {Navbar} from "./components/Navbar.jsx";
 import {Hero} from "./components/Hero.jsx";
 import {Projects} from "./components/Projects.jsx";
 import {Footer} from "./components/Footer.jsx";
+import {Contact} from "./components/Contact.jsx";
 
 function App() {
     const name = "Elouan Le Merle";
@@ -40,6 +41,8 @@ function App() {
             <Hero name={name}/>
 
             <Projects projects={projects} />
+
+            <Contact/>
 
             <Footer name={name}/>
 
