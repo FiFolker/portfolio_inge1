@@ -28,7 +28,7 @@
 
 
 .profile-img{
-    background-image:url("public/assets/marlene.png");
+    background-image:url("/assets/marlene.png");
     background-position: top right;
     background-repeat: no-repeat;
 }
