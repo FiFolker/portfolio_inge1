@@ -2,16 +2,16 @@ import {LogoButton} from "./LogoButton.jsx";
 
 export const Footer = ({name}) => {
     const buttons = [
-        { id:0, logo:"/assets/insta.png", link:"https://www.instagram.com" },
-        { id:1, logo:"/assets/linkedin.png", link:"https://www.linkedin.com/" },
-        { id:2, logo:"/assets/email.png", link:"mailto:elouan.le-merle@efrei.net" }
+        { id:0, logo:"/assets/insta.webp", link:"https://www.instagram.com" },
+        { id:1, logo:"/assets/linkedin.webp", link:"https://www.linkedin.com/" },
+        { id:2, logo:"/assets/email.webp", link:"mailto:elouan.le-merle@efrei.net" }
     ]
 
     return (
         <footer className="relative w-full mt-20">
 
             <img
-                src="/assets/footer.png"
+                src="/assets/footer.webp"
                 alt="Vague de décoration"
                 className="w-full h-auto min-h-[150px] object-cover object-bottom select-none pointer-events-none block"
             />
