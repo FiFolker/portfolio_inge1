@@ -36,6 +36,6 @@
     .profile-img{
         background-image:url("/assets/marlene.webp");
         background-position: top right;
-        background-size: cover auto;
+        background-size: cover;
     }
 }
