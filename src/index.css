@@ -28,7 +28,8 @@
 
 
 .profile-img{
-    background-image:url("/assets/marlene.png");
+    background-image: none;
     background-position: top right;
     background-repeat: no-repeat;
+    background-size: 50% auto;
 }
