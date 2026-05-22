@@ -28,8 +28,14 @@
 
 
 .profile-img{
-    background-image: none;
-    background-position: top right;
+    background-image:none;
     background-repeat: no-repeat;
-    background-size: 50% auto;
+}
+
+@media (min-width: 720px) {
+    .profile-img{
+        background-image:url("/assets/marlene.webp");
+        background-position: top right;
+        background-size: cover auto;
+    }
 }
