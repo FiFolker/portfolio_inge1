@@ -29,9 +29,9 @@ export const Navbar = ({name}) => {
                 </svg>
             </button>
             <ul className={`nav-links flex flex-row flex-wrap gap-3 sm:gap-0 sm:space-x-12 font-raleway text-xs sm:text-lg items-center ${isOpen ? "open" : ""}`}>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Projects">Projects</a></li>
-                <li><a href="#Contact">Contact</a></li>
+                <li><a className="border-b-2 border-transparent hover:border-bg-line transition-colors" href="#About">About</a></li>
+                <li><a className="border-b-2 border-transparent hover:border-bg-line transition-colors" href="#Projects">Projects</a></li>
+                <li><a className="border-b-2 border-transparent hover:border-bg-line transition-colors" href="#Contact">Contact</a></li>
             </ul>
         </nav>
     )
